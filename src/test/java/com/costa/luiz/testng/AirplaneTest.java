@@ -12,10 +12,11 @@ import static java.util.Objects.nonNull;
 public class AirplaneTest {
 
     @Severity(SeverityLevel.BLOCKER)
-    @Feature("Engine")
+    @Feature("Engine Dhiman")
     @Test(dataProvider = "engineProvider")
     public void engine(String engine, int power) {
         //Dummy code
+    	System.out.println("SELISE Testing");
         Assert.assertTrue(nonNull(engine) && power > 90);
     }
 
@@ -30,7 +31,7 @@ public class AirplaneTest {
 
 
     @Severity(SeverityLevel.BLOCKER)
-    @Feature("Safety")
+    @Feature("Safety SELISE")
     @Test(priority = 1)
     public void brakes() {
         //Dummy code

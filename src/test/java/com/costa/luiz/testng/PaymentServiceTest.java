@@ -17,6 +17,8 @@ public class PaymentServiceTest {
     void validateCard() {
         // Dummy test
         String serviceResponse = "OK";
+        System.out.println("TEsting OkaYYY");
+        
         Assert.assertEquals(serviceResponse, "OK");
     }
 
